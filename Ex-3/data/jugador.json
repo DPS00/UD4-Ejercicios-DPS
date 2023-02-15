@@ -1,0 +1,26 @@
+[
+    {
+        "nombre":"James",
+        "apellidos":"Curry",
+        "fechaNacimiento":"10/10/1989",
+        "puntuacion":40
+    },
+    {
+        "nombre":"DeMar",
+        "apellidos":"DeRoazan",
+        "fechaNacimiento":"16/02/1996",
+        "puntuacion":30
+    },
+    {
+        "nombre":"Stephen",
+        "apellidos":"James",
+        "fechaNacimiento":"20/04/1993",
+        "puntuacion":60
+    },
+    {
+        "nombre":"Ming",
+        "apellidos":"O'Neall",
+        "fechaNacimiento":"30/10/1979",
+        "puntuacion":20
+    }
+]

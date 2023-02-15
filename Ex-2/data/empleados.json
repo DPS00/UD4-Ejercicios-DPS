@@ -1,0 +1,37 @@
+[
+    {
+        "id":1,
+        "nombre":"Juan Perez",
+        "telefono":"656745631",
+        "especialidad":"Seguridad Informatica",
+        "departamento":"Sistemas"
+    },
+    {
+        "id":2,
+        "nombre":"Maria Carilo",
+        "telefono":"656745631",
+        "especialidad":"Active Directory",
+        "departamento":"Sistemas"
+    },
+    {
+        "id":3,
+        "nombre":"Marc Chalera",
+        "telefono":"656745631",
+        "especialidad":"JavaScript",
+        "departamento":"Programacion"
+    },
+    {
+        "id":4,
+        "nombre":"Lituna Carente",
+        "telefono":"656745631",
+        "especialidad":"React",
+        "departamento":"Programacion"
+    },
+    {
+        "id":5,
+        "nombre":"Jason Walker",
+        "telefono":"656745631",
+        "especialidad":"Seguridad Informatica",
+        "departamento":"Sistemas"
+    }
+]

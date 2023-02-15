@@ -1,0 +1,34 @@
+[
+    {
+        "titulo":"Dragon Ball Super 2",
+        "sinopsis":"En la ultima batalla del universo 7 muchos de los mejores guerreros murieron en combate, Goku enfurecido por ello decide ir a los diferentes uiversos a buscar venganza.",
+        "fechaEstreno":"28/04/2023",
+        "edadRecomendada":"16",
+        "genero":"Accion, Ficcion, Super Poderes",
+        "sesiones":"17:30 - 22:00"
+    },
+    {
+        "titulo":"Titanic 2",
+        "sinopsis":"Jack (DiCaprio), un joven artista, en una partida de cartas gana un pasaje para América, en el Titanic, el trasatlántico más grande y seguro jamás construido. A bordo, conoce a Rose (Kate Winslet), una joven de una buena familia venida a menos que va a contraer un matrimonio de conveniencia con Cal (Billy Zane), un millonario engreído a quien sólo interesa el prestigioso apellido de su prometida. Jack y Rose se enamoran, pero Cal y la madre de Rose ponen todo tipo de trabas a su relación. Inesperadamente, un inmenso iceberg pone en peligro la vida de los pasajeros.",
+        "fechaEstreno":"1/01/1989",
+        "edadRecomendada":"16",
+        "genero":"Drama, Tragedia",
+        "sesiones":"17:30 - 22:00"
+    },
+    {
+        "titulo":"One Piece GOLD",
+        "sinopsis":"Situado en el Gran Tesoro un pais independiente por el Gobierno Mundial la ciudad de entretenimiento más grande del mundo donde conocidos piratas Marines y millonarios en todo el mundo se reúnen en un «santuario absoluto» que el gobierno no puede tocar.",
+        "fechaEstreno":"28/04/2020",
+        "edadRecomendada":"16",
+        "genero":"Accion, Ficcion, Super Poderes",
+        "sesiones":"17:30 - 22:00"
+    },
+    {
+        "titulo":"Jujutsu Kaisen 0: The Film",
+        "sinopsis":"Yuta Okkotsu es un chico de instituto bastante nervioso con un grave problema: Su amigo Rika se ha convertido en un Curse y no le deja a solas. Ya que Rika no es un Curse ordinario capta la atención de Satoru Gojo un profesor del Instituto Jujutsu  donde los exorcistas aprenden a combatir a los Curse.",
+        "fechaEstreno":"30/02/2022",
+        "edadRecomendada":"16",
+        "genero":"Accion, Ficcion, Super Poderes",
+        "sesiones":"17:30 - 22:00"
+    }
+]
