@@ -11,19 +11,20 @@ let figuresList = [];
 // TODO:Petició asíncona per recuperar les figures
 function getFigures() {
 
-    fetch('./data/star-wars-figures.json')
+    fetch('./data/star-wars.json')
     .then(res=>res.json())
     .then( data =>{
-        figures=data;
-        printFigures();
+        figures=data.items;
+        printFigures(figures);
     });
 
 }
 
 
 // TODO:Crea les cards HTML de cada figura 
-function printFigures() {
-   
+function printFigures(figures) {
+    listTag.innerHTML ="";
+    
     figures.forEach(figure =>{
         listTag.innerHTML+=`
         <article class="card">
@@ -46,19 +47,21 @@ function setFavourites() {
 
 
 function filterFigures() {
-    let filterList =[];
-    for (let figure of figuresList){
+    let list = figures
+        .filter(e => 
+        (e.price >= priceMinTag.value && e.price <= priceTag.value))
+        
+        .sort((a, b) => {
+            // Ordena de major a menor pel nom
+            if (a.name > b.name) return 1;
+            if (a.name < b.name) return -1;
+            return 0;
+        });
 
-        if (figure.price>=priceMinTag.value && figure.price<=priceTag.value ){
-            filterList.push(figure);
-        }
-    }
-
-    if (filterList.length == 0) {
-        listTag.innerHTML = "No hay figuras que coincidan con el precio insertado en el filtro";
-    } else {
-        printFigures(filterList);
-    }
+    if (list.length === 0)
+        listTag.innerHTML = "No hay figuras que coincidan con el filtro";
+    else
+        printFigures(list);
 }
 
 
