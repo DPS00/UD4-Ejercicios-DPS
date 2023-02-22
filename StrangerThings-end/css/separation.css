@@ -1,0 +1,35 @@
+.separation{
+    text-align: center;
+    position: relative;
+}
+.separation .btn-icon{
+    padding: 5px;
+    display: inline-block;
+    margin-left: 1.2rem;
+    border-radius: 50%;
+    border: 2px solid white;
+    margin-top:10px;
+    margin-bottom: 10px;
+    background-color: #333333;
+}
+.separation:before{
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 0;
+    z-index: -10;
+    height: 2px;
+    width: 100%;
+    background-color: #777;
+}
+#open{
+    display: none;
+}
+#open:checked ~ .grid-similares{
+    height: 100%;
+    max-height: 100%;
+    transition: all 1s ease-in;
+}
+#open:checked ~ .separation .btn-icon{
+    transform: rotate(180deg);
+}

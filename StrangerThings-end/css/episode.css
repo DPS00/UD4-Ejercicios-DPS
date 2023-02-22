@@ -1,0 +1,81 @@
+.item-episode{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    border-bottom: 1px solid #333333;
+    padding:2rem
+}
+
+.item-episode:hover{
+    background-color: #333333;
+}
+.item-episode .number{
+    width: 10%;
+    font-size: 1.8rem;
+    color:#B7B7B7;
+    text-align: center;
+
+}
+.item-episode img{
+    width: 100%;
+}
+.item-episode .play-episode{
+    position: relative;
+}
+/* article .play-episode::after{
+    content:'';
+    position: absolute;
+    top:0;
+    left:0;
+    z-index: 10;
+    width: 2rem;
+    height: 2rem;
+    background-color: white;
+    clip-path: polygon(100% 50%, 0 0, 0 100%);
+} */
+.item-episode .play-episode:hover .play-episode-icon{
+    display:block;
+}
+.item-episode progress{
+    background-color:#bbb;
+    -webkit-appearance: none;
+    accent-color: red;
+   
+    width: 100%;
+    height: 5px;
+}
+/* temporal no stàrdar */
+.item-episode progress::-moz-progress-bar{
+    background-color:  red;
+}
+
+.item-episode .play-episode-icon{
+    display:none;
+    position: absolute;
+    top:calc(100%/2 - 1rem);
+    left:calc(100%/2 - 1rem);
+    z-index: 10;
+    width: 2rem;
+    height: 2rem;
+    background-color: rgb(255, 255, 255, 0.8);
+    clip-path: polygon(100% 50%, 0 0, 0 100%);
+   
+}
+.item-episode .desc{
+   padding-left:1rem;
+}
+.item-episode .desc p{
+    color:#d2d2d2;
+    text-align: justify;
+}
+.item-episode .container-title{
+    display: flex;
+    justify-content: space-between;
+
+}
+.item-episode .container-title h3{
+    padding: 0 0 0.7rem 0;
+    margin:0;
+}
+

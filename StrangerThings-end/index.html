@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix - Stranger Things</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <link rel="stylesheet" href="./css/styles.css">
+    <script defer src="/StrangerThings-end/js/app.js"></script>
+</head>
+
+<body>
+
+    <div id="page">
+        <!-- header content -->
+        <header>
+            <div>
+                <img class="logo" src="img/logo.png" alt="" />
+            </div>
+            <div class="container-buttons">
+                <div class="btn-play">
+                    <div>
+                        <span class="material-icons icon-play">play_arrow</span>
+                    </div>
+                    <div>Reproducir</div>
+                </div>
+                <span class="material-icons btn-icon">add</span>
+                <span class="material-icons btn-icon">thumb_up</span>
+            </div>
+
+        </header>
+
+        <!-- main content -->
+        <main>
+            <!-- info list content -->
+            <section id="main-info">
+                <div>
+                    <div class="container-features">
+                        <div class="year">2022</div>
+                        <div class="maturity-rating">
+                            <svg viewbox="0 0 158 100" class="svg-icon-maturity">
+                                <rect id="Background" width="158" height="100" x="0" y="0" fill="#FF5B20" rx="16.667">
+                                </rect>
+                                <path id="16+" fill="#FFF" fill-rule="nonzero"
+                                    d="M43.867 74.25V26.983L24 32.583v7.8l11.067-3.4V74.25h8.8zm34.8 1c2.933 0 5.689-.656 8.266-1.967 2.578-1.31 4.667-3.189 6.267-5.633 1.6-2.444 2.4-5.333 2.4-8.667 0-2.933-.689-5.555-2.067-7.866A15.175 15.175 0 0088 45.65c-2.311-1.333-4.867-2-7.667-2-2.755 0-5.155.556-7.2 1.667a13.256 13.256 0 00-4.933 4.6c.133-5.2 1.122-9.056 2.967-11.567 1.844-2.511 4.344-3.767 7.5-3.767 3.51 0 5.91 1.267 7.2 3.8h9c-1.156-3.689-3.078-6.533-5.767-8.533-2.689-2-6.211-3-10.567-3-3.733 0-7.033.944-9.9 2.833-2.866 1.89-5.1 4.611-6.7 8.167-1.6 3.556-2.4 7.867-2.4 12.933 0 7.823 1.7 13.856 5.1 18.1 3.4 4.245 8.078 6.367 14.034 6.367zm-.467-7.733c-1.556 0-3-.356-4.333-1.067-1.334-.711-2.39-1.689-3.167-2.933-.778-1.245-1.167-2.645-1.167-4.2 0-1.6.39-3.023 1.167-4.267a8.55 8.55 0 013.133-2.967c1.311-.733 2.767-1.1 4.367-1.1 2.444 0 4.5.8 6.167 2.4 1.666 1.6 2.5 3.578 2.5 5.934 0 2.4-.834 4.366-2.5 5.9-1.667 1.533-3.723 2.3-6.167 2.3zm43.667.866V55.517h12v-7.134h-12V35.517h-7.4v12.866h-12v7.134h12v12.866h7.4z">
+                                </path>
+                            </svg>
+                        </div>
+                        <div class="temp">4 temporadas</div>
+                        <div class="player-feature">HD</div>
+                    </div>
+                    <div class="desc">
+                        <p>
+                            A raíz de la desaparición de un niño, un pueblo desvela un misterio relacionado con
+                            experimentos
+                            secretos, fuerzas sobrenaturales aterradoras y una niña muy extraña.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="cast">
+                    <dl>
+                        <dt>Creado por</dt>
+                        <dd>Los hermanos duffer
+                        </dd>
+                        <dt>Reparto</dt>
+                        <dd>Winona
+                            Ryder, David Harbour, Millie Bobby Brown,
+
+                            <details>
+                                <summary>más</summary>
+                                <p>Noah Schnapp, Sadie Sink, Natalia Dyer, Charlie Heaton, Joe keery, Maya Hawke</p>
+                            </details>
+                        </dd>
+                        <dt>Géneros</dt>
+                        <dd>TV de
+                            ciencia ficción, Series TV juveniles, Terror para TV, De miedo</dd>
+                    </dl>
+                </div>
+            </section>
+
+            <!-- Navitation bar -->
+            <nav id="nav-temporada">
+                <a href="#" class="active">Temporada 1</a>
+                <a href="#">Temporada 2</a>
+                <a href="#">Temporada 3</a>
+                <a href="#">Temporada 4</a>
+            </nav>
+
+             <!-- episodes list content -->
+            <section class="episodes">
+                <h2>Episodios</h2>
+
+                <article class="item-episode">
+                    <div class="number">1</div>
+                    <div class="play-episode">
+                        <img src="img/episode-1.jpg" alt="">
+                        <progress value="30" max="100"> 32% </progress>
+                        <div class="play-episode-icon"></div>
+                    </div>
+                    <div class="desc">
+                        <div class="container-title">
+                            <h3>Capítulo uno: La desaparición de Will Byers</h3>
+                            <div class="duration">56 min</div>
+                        </div>
+                        <p>Cuando vuelve en bici a su casa, Will ve algo horroroso. Cerca de allí, un siniestro secreto
+                            acecha en las profundidades de un laboratorio estatal.</p>
+                    </div>
+                </article>
+
+                <article class="item-episode">
+                    <div class="number">2</div>
+                    <div class="play-episode">
+                        <img src="img/episode-2.jpg" alt="">
+                        <div class="play-episode-icon"></div>
+                    </div>
+                    <div class="desc">
+                        <div class="container-title">
+                            <h3>Capítulo uno: La desaparición de Will Byers</h3>
+                            <div class="duration">56 min</div>
+                        </div>
+                        <p>Cuando vuelve en bici a su casa, Will ve algo horroroso. Cerca de allí, un siniestro secreto
+                            acecha en las profundidades de un laboratorio estatal.</p>
+                    </div>
+                </article>
+
+                <article class="item-episode">
+                    <div class="number">3</div>
+                    <div class="play-episode">
+                        <img src="img/episode-3.jpg" alt="">
+                        <div class="play-episode-icon"></div>
+                    </div>
+                    <div class="desc">
+                        <div class="container-title">
+                            <h3>Capítulo uno: La desaparición de Will Byers</h3>
+                            <div class="duration">56 min</div>
+                        </div>
+                        <p>Cuando vuelve en bici a su casa, Will ve algo horroroso. Cerca de allí, un siniestro secreto
+                            acecha en las profundidades de un laboratorio estatal.</p>
+                    </div>
+                </article>
+
+            </section>
+
+            <section>
+                <h2>Similares</h2>
+                <input type="checkbox" name="open" id="open">
+                <div class="grid-similares">
+                    <!-- Timeless -->
+                    <article class="card">
+
+                        <div class="season">2 temporadas</div>
+                        <img src="./img/similar-timeless.jpg" alt="">
+                        <div class="container">
+                            <div class="coincidencia">86% de coincidencia</div>
+                            <div class="info-card-container">
+                                <div>
+                                    <span class="pegi age-16">16+</span>
+                                    <span class="year">2018</span>
+                                </div>
+                                <div class="tooltip">
+                                    <div class="tooltiptext">Añadir</div>
+                                    <span class="material-icons btn-icon">add</span>
+                                </div>
+                            </div>
+                            <p>Una historiadora, un soldado y un programador viajan en el tiempo para perseguir a
+                                criminales que amenazan con perturbar el espacio-tiempo.</p>
+                        </div>
+                    </article>
+
+
+                    <article class="card">
+                        <div class="season">8 episodios</div>
+                        <img src="./img/similars-2.jpg" alt="">
+                        <div class="container">
+                            <div class="info-card-container">
+                                <div>
+                                    <span class="pegi age-16">16+</span>
+                                    <span class="year">2021</span>
+                                </div>
+                                <div>
+                                    <span class="material-icons btn-icon">add</span>
+                                </div>
+                            </div>
+                            <p>Ellos son la primera generación de superhéroes. Ahora que deben pasar el testigo a sus
+                                hijos, las tensiones aumentan... y ya no valen las viejas normas.</p>
+                        </div>
+                    </article>
+                    <!-- The witcher -->
+
+                    <article class="card">
+                        <div class="season">2 temporadas</div>
+                        <img src="./img/similar-the-witcher.jpg" alt="">
+                        <div class="container">
+                            <div class="info-card-container">
+                                <div>
+                                    <span class="pegi age-16">16+</span>
+                                    <span class="year">2021</span>
+                                </div>
+                                <div>
+                                    <span class="material-icons btn-icon">add</span>
+                                </div>
+                            </div>
+                            <div class="score">
+                                <div class="star"></div>
+                                <div class="star"></div>
+                                <div class="star"></div>
+                                <div class="star-off"></div>
+                                <div class="star-off"></div>
+                            </div>
+                            <p>Geralt de Rivia, un cazador de monstruos mutante, viaja en pos de su destino por un mundo
+                                turbulento en el que, a menudo, los humanos son peores que las bestias.</p>
+                        </div>
+                    </article>
+
+                    <!-- Sombra hueso -->
+                    <article class="card">
+                        <div class="season">1 temporada</div>
+                        <img src="./img/similar-sombra-hueso.jpg" alt="">
+                        <div class="container">
+                            <div class="info-card-container">
+                                <div>
+                                    <span class="pegi age-12">12+</span>
+                                    <span class="year">2021</span>
+                                </div>
+                                <div>
+                                    <span class="material-icons btn-icon">add</span>
+                                </div>
+                            </div>
+                            <p>Fuerzas siniestras conspiran contra la cartógrafa huérfana Alina Starkov cuando desata un
+                                poder mágico capaz de cambiar el destino de su mundo, asolado por la guerra.</p>
+                        </div>
+                    </article>
+
+                    <!-- Gotham -->
+                    <article class="card">
+                        <div class="season">5 temporadas</div>
+                        <img src="./img/similar-gotham.jpg" alt="">
+                        <div class="container">
+                            <div class="coincidencia">89% de coincidencia</div>
+                            <div class="info-card-container">
+                                <div>
+                                    <span class="pegi age-16">16+</span>
+                                    <span class="year">2019</span>
+                                </div>
+                                <div>
+                                    <span class="material-icons btn-icon">add</span>
+                                </div>
+                            </div>
+                            <p>Mucho antes de ser inspector, el policía principiante James Gordon se enfrenta al crimen
+                                y corrupción de Gotham City para vengar la muerte de los padres de Bruce Wayne.</p>
+                        </div>
+                    </article>
+
+                    <!-- Ollie -->
+                    <article class="card">
+                        <div class="season">Miniserie</div>
+                        <img src="./img/similar-ollie.jpg" alt="">
+                        <div class="container">
+                            <div class="info-card-container">
+                                <div>
+                                    <span class="pegi age-7">7+</span>
+                                    <span class="year">2022</span>
+                                </div>
+                                <div>
+                                    <span class="material-icons btn-icon">add</span>
+                                </div>
+                            </div>
+                            <p>Un conejo hecho de retales, con grandes orejas y recuerdos borrosos, emprende una
+                                búsqueda épica de su mejor amigo: el niño al que quiere con todo su corazón.</p>
+                        </div>
+                    </article>
+
+                    <!-- La tierra -->
+                    <article class="card">
+                        <div class="season">7 temporadas</div>
+                        <img src="./img/similars-los100.jpg" alt="">
+                        <div class="container">
+                            <div class="info-card-container">
+                                <div>
+                                    <span class="pegi age-16">16+</span>
+                                    <span class="year">2020</span>
+                                </div>
+                                <div>
+                                    <span class="material-icons btn-icon">add</span>
+                                </div>
+                            </div>
+                            <p>Un siglo después de que la Tierra resultase devastada por un apocalipsis nuclear, 100
+                                habitantes de una estación espacial vuelven al planeta a comprobar si es habitable.</p>
+                        </div>
+                    </article>
+
+                    <!-- Lost in space -->
+                    <article class="card">
+                        <div class="season">3 temporadas</div>
+                        <img src="./img/similars-lost-in-space.jpg" alt="">
+                        <div class="container">
+                            <div class="info-card-container">
+                                <div>
+                                    <span class="pegi age-7">7+</span>
+                                    <span class="year">2021</span>
+                                </div>
+                                <div>
+                                    <span class="material-icons btn-icon">add</span>
+                                </div>
+                            </div>
+                            <p>Tras un aterrizaje forzoso en un planeta desconocido, la familia Robinson lucha
+                                desesperadamente por sobrevivir y escapar, pero está rodeada de peligros ocultos.</p>
+                        </div>
+                    </article>
+
+                    <!-- black summer -->
+                    <article class="card">
+                        <div class="season">2 temporadas</div>
+                        <img src="./img/similar-black-summer.jpg" alt="" />
+                        <div class="container">
+                            <div class="info-card-container">
+                                <div>
+                                    <span class="pegi age-18">18+</span>
+                                    <span class="year">2021</span>
+                                </div>
+                                <div>
+                                    <span class="material-icons btn-icon">add</span>
+                                </div>
+                            </div>
+                            <p>En los primeros y confusos días de un apocalipsis zombi, completos desconocidos deben
+                                aliarse para hacerse fuertes y regresar con sus seres queridos.</p>
+                        </div>
+                    </article>
+
+
+                </div>
+                <div class="separation">
+                    <label for="open"><span class="material-icons btn-icon">expand_more</span></label>
+                </div>
+            </section>
+
+            <section>
+                <h2>Tràilers</h2>
+                <div class="grid-trailer">
+                    <div class="trailer">
+                        <img src="./img/trailer-1.jpg" alt="">
+                        <h3>Tráiler scene 1</h3>
+                    </div>
+                    <div class="trailer">
+                        <img src="./img/trailer-2.jpg" alt="">
+                        <h3>Tráiler horror</h3>
+                    </div>
+                    <div class="trailer">
+                        <img src="./img/trailer-3.jpg" alt="">
+                        <h3>Tráiler</h3>
+                    </div>
+                    <div class="trailer">
+                        <img src="./img/trailer-4.jpg" alt="">
+                        <h3>Tráiler</h3>
+                    </div>
+                    <div class="trailer">
+                        <img src="./img/trailer-5.jpg" alt="">
+                        <h3>Tráiler</h3>
+                    </div>
+                    <div class="trailer">
+                        <img src="./img/trailer-6.jpg" alt="">
+                        <h3>Tráiler</h3>
+                    </div>
+                    <div class="trailer">
+                        <img src="./img/trailer-7.jpg" alt="">
+                        <h3>Tráiler children</h3>
+                    </div>
+                    <div class="trailer">
+                        <img src="./img/trailer-8.jpg" alt="">
+                        <h3>Tráiler móster</h3>
+                    </div>
+                    <div class="trailer">
+                        <img src="./img/trailer-9.jpg" alt="">
+                        <h3>Tráiler discover</h3>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <a href="#">More films</a>
+
+        </footer>
+
+    </div>
+
+</body>
+
+</html>

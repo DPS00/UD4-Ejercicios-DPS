@@ -1,0 +1,32 @@
+#main-info{
+    display:flex;
+    justify-content: space-between;
+}
+.container-features{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 16vw;
+    padding: 1.5rem 0;
+}
+
+.player-feature{
+    border:solid 1px #c5c4c4;
+    padding: 2px;
+    border-radius: 4px;
+}
+
+.cast dl{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap:0.5rem;
+}
+.cast dt{
+    color:#777;
+    padding-right:1rem;
+    text-align: right;
+}
+#main-info .desc{
+    line-height: 1.5rem;
+    padding-right: 1rem;
+}

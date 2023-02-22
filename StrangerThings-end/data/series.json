@@ -1,0 +1,64 @@
+[
+    {
+        "id":1,
+        "title":"timeless",
+        "seasons":2,
+        "pegi":16,
+        "release":2018,
+        "match":86,
+        "cover":"similar-timeless.jpg",
+        "description":"Una historiadora, un soldado y un programador viajan en el tiempo para perseguir a criminales que amenazan con perturbar el espacio-tiempo."
+    },
+    {
+        "id":2,
+        "title":"Jupiter's Legacy",
+        "episodes":8,
+        "pegi":16,
+        "release":2021,
+        "match":50,
+        "cover":"similars-2.jpg",
+        "description":"Ellos son la primera generación de superhéroes. Ahora que deben pasar el testigo a sus hijos, las tensiones aumentan... y ya no valen las viejas normas."
+    },
+    {
+        "id":3,
+        "title":"The Witcher",
+        "seasons":2,
+        "pegi":16,
+        "release":2021,
+        "match":50,
+        "cover":"similar-the-witcher.jpg",
+        "stars":3,
+        "description":"Geralt de Rivia, un cazador de monstruos mutante, viaja en pos de su destino por un mundo turbulento en el que, a menudo, los humanos son peores que las bestias."
+    },
+    {
+        "id":4,
+        "title":"Sombra Hueso",
+        "seasons":1,
+        "pegi":12,
+        "release":2021,
+        "match":50,
+        "cover":"similar-sombra-hueso.jpg",
+        "description":"Fuerzas siniestras conspiran contra la cartógrafa huérfana Alina Starkov cuando desata un poder mágico capaz de cambiar el destino de su mundo, asolado por la guerra."
+    },
+    {
+        "id":5,
+        "title":"Gotham",
+        "seasons":5,
+        "pegi":16,
+        "release":2019,
+        "match":89,
+        "cover":"similar-gotham.jpg",
+        "description":"Mucho antes de ser inspector, el policía principiante James Gordon se enfrenta al crimen y corrupción de Gotham City para vengar la muerte de los padres de Bruce Wayne."
+    },
+    {
+        "id":6,
+        "title":"Ollie este perdido",
+        "miniserie":true,
+        "pegi":7,
+        "release":2022,
+        "match":50,
+        "stars":3,
+        "cover":"similar-ollie.jpg",
+        "description":"Un conejo hecho de retales, con grandes orejas y recuerdos borrosos, emprende una búsqueda épica de su mejor amigo: el niño al que quiere con todo su corazón."
+    }
+]

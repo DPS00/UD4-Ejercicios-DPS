@@ -1,0 +1,86 @@
+@import url('./header.css');
+@import url('./main-info.css');
+@import url('./episode.css');
+@import url('./card.css');
+@import url('./navigation.css');
+@import url('./separation.css');
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin:0;
+}
+@font-face { 
+    font-family: Netflix-Sans; 
+    src: url("../fonts/NetflixSans_W_Rg.woff2");
+}
+@font-face { 
+    font-family: Netflix-icons; 
+    src: url("../fonts/nf-icon-v1-93.woff");
+}
+:root{
+   /* text-color:--var*/
+}
+body{
+    background-color: black;
+    color:white;
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+    font-family: Netflix-Sans;
+}
+
+#page{
+    max-width: 900px;
+}
+/* General */
+img{
+    width: 100%;
+}
+
+.svg-icon-maturity{
+    height: 2rem;
+    width: 2rem;
+}
+h2{
+    font-size: 2rem;
+    padding:2rem 0;
+}
+.btn-icon{
+    padding: 5px;
+    display: block;
+    margin-left: 1.2rem;
+    border-radius: 50%;
+    border: 2px solid white;
+    
+}
+
+.grid-similares{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap:1rem;
+    height: 40vh;
+    max-height: 40vh;
+    overflow: hidden;
+    transition: height 0.8s ease-in;
+    /* background-color: #777; */
+    
+}
+.grid-trailer{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    gap:1rem;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    border-top: 1px solid #aaa8a8;
+    margin-top: 10px;
+}
+
+
+
+
+

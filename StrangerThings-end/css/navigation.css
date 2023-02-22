@@ -1,0 +1,28 @@
+#nav-temporada{
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    border-bottom: 1px solid rgb(135, 132, 132);
+}
+#nav-temporada a{
+   text-decoration: none;
+   color: #c5c4c4;
+   font-size: 1.2rem;
+   font-weight: bolder;
+   width: 9rem;
+   height: 2.5rem;
+   line-height: 2.5rem;
+   border-bottom: 2px solid rgba(166, 4, 4, 0);
+   display:inline-block;
+   text-align: center;
+   margin-top: 1rem;
+
+}
+
+#nav-temporada a:hover, #nav-temporada .active{
+    background-color: #333333;
+    color:white;
+    border-bottom: 3px solid rgba(166, 4, 4, 1);
+    border-radius:5px 5px 0 0;
+    
+}
