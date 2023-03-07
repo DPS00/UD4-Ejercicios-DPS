@@ -280,9 +280,18 @@ console.log("Ex.7:", ex7Filter(productsList));
 
 // Funció que retorni un nou array només amb els camps id, name i price de cada producte
 function ex8Filter(products){
- 
+  let filterProducts=[];
+ for(const prod of products){
+    let newProduct = {
+      "id": prod.id,
+      "name": prod.name,
+      "price": prod.price
+  };
+  filterProducts.push(newProduct)
+ }
+ return filterProducts
 }
-//console.log("Ex.8:", ex8Filter(productsList));
+console.log("Ex.8:", ex8Filter(productsList));
 
 /*
 Funció que retorni un nou array només amb els camps name, category  i price, però seguint aquests requeriments:
@@ -291,27 +300,47 @@ Funció que retorni un nou array només amb els camps name, category  i price, p
 - La categoria només en les tres primeres lletres
 */
 function ex9Filter(products){
-  
+  let filterProducts = [];
+  for(const prod of products){
+    let newProduct = {
+      "name": prod.name.toUpperCase(),
+      "category": prod.category.substring(0, 3),
+      "price": (prod.price+"€")
+    }
+    filterProducts.push(newProduct)
+  }
+  return filterProducts
 }
-//console.log("Ex.9:", ex9Filter(productsList));
+console.log("Ex.9:", ex9Filter(productsList));
 
 // Funció que retorni verdader o false si tots els productes es troben en stock i preu superior a 0.
 function ex10Filter(products){    
-  
+  for(const prod of products)
+  if(prod.stock = 1 && prod.price >0){
+    return true
+  }else{
+    return false
+  }
 }
-//console.log("Ex.10:", ex10Filter(productsList));
+console.log("Ex.10:", ex10Filter(productsList));
 
 // Funció que retorni el producte (primer que trobi a la llista) que sigui de la categoria “GAME” i amb el nom “The Witcher”
 function ex11Filter(products){
-   
+   for(const prod of products)
+   if(prod.category == "GAME" && prod.name == "The Witcher"){
+    return prod
+   }
 }
-//console.log("Ex.11:", ex11Filter(productsList));
+console.log("Ex.11:", ex11Filter(productsList));
 
 // Funció que retorni el producte (primer que trobi a la llista) que sigui de la categoria “COMPUTER”, amb el nom “presario” i marca “MSI”.
 function ex12Filter(products){
-   
+  for(const prod of products)
+  if(prod.category == "COMPUTER" && prod.name.includes("presario") && prod.brand == "MSI"){
+   return prod
+  }
 }
-//console.log("Ex.12:", ex12Filter(productsList));
+console.log("Ex.12:", ex12Filter(productsList));
 
 // Funció que torni els ordinadors o portàtils amb un descompte superior o igual a 50%  i afegint una propietat amb el seu preu de descompte.
 function ex13Filter(products){
@@ -327,6 +356,19 @@ function ex14Filter(products){
 
 // Funció que retorni el producte amb el codi/id 18, però només els camps id, name i price.
 function ex15Filter(products){
- 
+  let filterProducts = [];
+ for(const prod of products){
+  if(prod.id == 18){
+    const newProduct = {
+      "id": prod.id,
+      "name": prod.name,
+      "price": prod.price
+    }
+    filterProducts.push(newProduct)
+  }
+  
 }
-//console.log("Ex.15:", ex15Filter(productsList));
+return filterProducts
+
+}
+console.log("Ex.15:", ex15Filter(productsList));
