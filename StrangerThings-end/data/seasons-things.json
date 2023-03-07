@@ -1,0 +1,64 @@
+{
+    "title":"Stranger Things",
+    "sinopsis":"...",
+    "seasons":[
+        {
+            "number":1,
+            "episodes":[
+                {
+                    "number":1,
+                    "title":"Capítulo uno: La desaparición de Will Byers",
+                    "duration":56,
+                    "image":"episode-1.jpg",
+                    "description":"Cuando vuelve en bici a su casa, Will ve algo horroroso. Cerca de allí, un siniestro secreto acecha en las profundidades de un laboratorio estatal."
+                },
+                {
+                    "number":2,
+                    "title":"Capítulo dos: La vida de Will en el pasado",
+                    "duration":50,
+                    "image":"episode-2.jpg",
+                    "description":"Cuando vuelve en bici a su casa, Will ve algo horroroso. Cerca de allí, un siniestro secreto acecha en las profundidades de un laboratorio estatal."
+                }
+            ]   
+        },
+        {
+            "number":2,
+            "episodes":[
+                {
+                    "number":1,
+                    "title":"Capítulo uno: La vida de Once antes de los pderes",
+                    "duration":59,
+                    "image":"episode-3.jpg",
+                    "description":"Cuando vuelve en bici a su casa, Will ve algo horroroso. Cerca de allí, un siniestro secreto acecha en las profundidades de un laboratorio estatal."
+                },
+                {
+                    "number":2,
+                    "title":"Capítulo dos: El demogorgon aparece",
+                    "duration":56,
+                    "image":"episode-4.jpg",
+                    "description":"Cuando vuelve en bici a su casa, Will ve algo horroroso. Cerca de allí, un siniestro secreto acecha en las profundidades de un laboratorio estatal."
+                }
+            ]   
+        },
+        {
+            "number":3,
+            "episodes":[
+                {
+                    "number":1,
+                    "title":"El demogorgon ataca",
+                    "duration":70,
+                    "image":"episode-5.jpg",
+                    "description":"Cuando vuelve en bici a su casa, Will ve algo horroroso. Cerca de allí, un siniestro secreto acecha en las profundidades de un laboratorio estatal."
+                },
+                {
+                    "number":2,
+                    "title":"La muerte de Carl y Will",
+                    "duration":67,
+                    "image":"episode-6.jpg",
+                    "description":"Cuando vuelve en bici a su casa, Will ve algo horroroso. Cerca de allí, un siniestro secreto acecha en las profundidades de un laboratorio estatal."
+                }
+            ]   
+        }
+
+    ]
+}
